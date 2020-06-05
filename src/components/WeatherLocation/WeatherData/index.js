@@ -9,8 +9,10 @@ import {
   WINDY,
 } from './../../../constants/weather';
 
+import './style.css';
+
 const WeatherData = () => (
-    <div>
+    <div className="weatherDataCont">
       <WeatherTemperature
           temperature={20}
           weatherState={CLOUDY}
